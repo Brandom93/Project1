@@ -3,7 +3,8 @@
     --blanco: #ffffff;
     --oscuro: #212121;
     --primario: #FFC107;
-    --secundario: #0097a7;
+    /* --secundario: #0097a7; */
+    --secundario: #355387;
     --gris: #757575;
     --grisClaro: #DFE9F3;
 }
@@ -13,12 +14,6 @@ html {
     font-size: 62.5%;
     box-sizing: border-box;
     scroll-snap-type: y mandatory;
-}
-.servicios,
-.navegacion-principal,
-.formulario {
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
 }
 
 
@@ -34,6 +29,7 @@ body {
     text-align: center;
     font-size: 3.8rem;
     color: var(--oscuro);
+    text-transform: uppercase;
 }
 .boton{
     background-color: var(--secundario);
